@@ -1,0 +1,70 @@
+/* ====== ESTILO GERAL ====== */
+body {
+  background-color: #1E1E1E; /* fundo externo escuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/* ====== CONTAINER DO LOGIN ====== */
+.login-container {
+  background-color: #E6E6E6; /* fundo cinza-claro */
+  width: 420px;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* ====== IMAGEM (logo ou ilustração) ====== */
+.login-container img {
+  width: 130px;
+  margin-bottom: 30px;
+}
+
+/* ====== LABELS ====== */
+.login-container label {
+  display: block;
+  font-weight: 600;
+  color: #E75D00; /* laranja da marca */
+  text-align: left;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* ====== INPUTS ====== */
+.login-container input[type="text"],
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  font-size: 15px;
+  outline: none;
+  background-color: #fff;
+}
+
+/* ====== BOTÃO ====== */
+.login-container button {
+  width: 100%;
+  background-color: #003C8F; /* azul da marca */
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login-container button:hover {
+  background-color: #002E70;
+  transform: scale(1.02);
+}

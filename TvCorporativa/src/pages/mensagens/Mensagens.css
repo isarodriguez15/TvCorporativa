@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 550px;
+    /* margin: 50px auto;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #D44F00;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 45px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 20px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+button.cancelar {
+    background-color: #003878;
+}
+
+button.confirmar {
+    background-color: #003878;
+}
+
+button:hover {
+    opacity: 0.9;
+}

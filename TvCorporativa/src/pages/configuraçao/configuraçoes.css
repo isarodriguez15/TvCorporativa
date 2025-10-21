@@ -1,0 +1,116 @@
+.config-container {
+    background-color:  #f2f2f2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.config-header{
+    width: 100%;
+    background: linear-gradient(90deg, #0d47a1, #ff6600);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.logo span {
+  color: #ff6600;
+}
+
+.header-icons i {
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.config-content{
+    background-color: #f2f2f2;
+    width: 60%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-title{
+    color:  #cc5200;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.input-field, .input-search{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: inset 0 1px 3px  rgba(0,0,0,0.1);
+    outline: none;
+}
+
+.btn-cadastrar {
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 140px;
+  align-self: center;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-cadastrar:hover {
+  background-color: #093b85;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: #cc5200;
+}
+
+.list-title {
+  color: #cc5200;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.list-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 10px;
+  font-weight: 600;
+  color: #cc5200;
+}
+
+.list-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.list-row input {
+  border: none;
+  border-radius: 12px;
+  height: 28px;
+  background-color: white;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
