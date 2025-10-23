@@ -7,14 +7,14 @@
   font-weight: normal; 
 }
 
-body {
+.main_criacaoanuncio {
   background-color: #d9d9d9;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-main {
+.main_criacaoanuncio {
   width: 90%;
   max-width: 700px;
   margin-top: 36px;
@@ -22,7 +22,7 @@ main {
 }
 
 /* título */
-main h4 {
+.main_criacaoanuncio h4 {
   color: #D44F00;
   margin-bottom: 20px; 
   letter-spacing: 1px;

@@ -1,0 +1,190 @@
+/* ======== HEADER ======== */
+.header {
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(to right, #001080, #ff6600);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-section img {
+  height: 35px;
+}
+
+.logo-section span {
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icons-section {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  color: rgba(255, 102, 0, 0.8);
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* ======== CONTEÚDO ======== */
+.pagina-cadastro {
+  min-height: 100vh;
+  background-color: #d9d9d9;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #d94b2b;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+button {
+  margin-top: 25px;
+  background-color: #003366;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #002244;
+}
+
+/* ======== CAMPO DE PESQUISA ======== */
+.pesquisa-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pesquisa-container input {
+  width: 100%;
+  padding-right: 35px;
+}
+
+.icone-pesquisa {
+  position: absolute;
+  right: 10px;
+  color: #d94b2b;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* ======== RESPONSIVIDADE ======== */
+@media (max-width: 1024px) {
+  .form-cadastro {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .logo-section span {
+    font-size: 18px;
+  }
+
+  .icons-section {
+    gap: 15px;
+  }
+
+  .form-cadastro {
+    width: 85%;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 10px;
+  }
+
+  .logo-section img {
+    height: 28px;
+  }
+
+  .logo-section span {
+    font-size: 16px;
+  }
+
+  .form-cadastro {
+    width: 90%;
+    padding: 15px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px;
+    font-size: 13px;
+  }
+}

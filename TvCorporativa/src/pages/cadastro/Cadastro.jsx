@@ -5,7 +5,7 @@ const Cadastro = () => {
 
 
 return(
-    <main>
+    <main className="main_cadastro">
         <img src="" alt="" />
     </main>
 )

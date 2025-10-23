@@ -1,5 +1,5 @@
 /* ====== ESTILO GERAL ====== */
-body {
+.main_login {
   background-color: #1E1E1E; /* fundo externo escuro */
   display: flex;
   justify-content: center;
