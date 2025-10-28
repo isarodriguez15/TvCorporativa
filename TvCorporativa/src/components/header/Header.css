@@ -16,7 +16,7 @@
 }
 
 .logo-section img {
-  height: 35px;
+  height: 60px;
 }
 
 .logo-section span {
@@ -35,7 +35,7 @@
 
 .icon {
   color: rgba(255, 255, 255, 0.8); /* laranja suave */
-  font-size: 18px;
+  font-size: 25px;
   cursor: pointer;
   transition: transform 0.2s ease, color 0.2s ease;
 }
