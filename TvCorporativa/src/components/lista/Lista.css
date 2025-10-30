@@ -1,0 +1,109 @@
+body, html, .app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #d9d9d9; /* fundo cinza claro */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #1e0a78, #a02050, #ff6600);
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo-vortek {
+  height: 30px;
+  margin-right: 8px;
+}
+
+.logo-text {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.navbar-icons i {
+  margin-left: 20px;
+  cursor: pointer;
+  color: #ff6600;
+  transition: color 0.3s;
+}
+
+.navbar-icons i:hover {
+  color: #ffffff;
+}
+
+/* Conteúdo */
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  padding: 40px;
+}
+
+.card_lista {
+  background-color: #ff1c1c;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #a53e00;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.senai-logo {
+  width: 90px; 
+  margin-bottom: 10px;
+}
+
+/* Rodapé */
+.footer_lista {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.footer i {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.footer i:hover {
+  transform: rotate(-20deg);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 25px;
+  margin-right: 5px;
+}

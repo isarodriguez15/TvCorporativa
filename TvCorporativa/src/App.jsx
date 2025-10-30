@@ -3,6 +3,7 @@ import Login from '../src/pages/login/Login'
 import Mensagem from '../src/pages/mensagens/Mensagens'
 import CriacaoAnuncio from './pages/criaçaoAnuncio/CriacaoAnuncio'
 import Visualizador from '../src/pages/visualizador/Visualizador.jsx'
+import Lista from '../src/components/lista/Lista.jsx'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
     {/* <Login/> */}
     {/* <Mensagem/> */}
   {/* <CriacaoAnuncio/> */}
-    <Visualizador/>
+   <Visualizador/> 
+        {/* <Lista/> */}
     
     </>
   );
